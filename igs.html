@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Text and Colored Numbers</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .text-center {
+            font-size: 24px;
+            margin-right: 20px;
+        }
+
+        .nomor {
+            display: flex;
+        }
+
+        .nomor div {
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        .nomor-1 {
+            background-color: yellow;
+        }
+
+        .nomor-2 {
+            background-color: green;
+        }
+
+        .nomor-3 {
+            background-color: blue;
+        }
+
+        .nomor-4 {
+            background-color: red;
+        }
+
+        .text-center {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">CODING IGS</div>
+        <div class="nomor">
+            <div class="nomor-1">1</div>
+            <div class="nomor-2">2</div>
+            <div class="nomor-3">3</div>
+            <div class="nomor-4">4</div>
+        </div>
+    </div>
+</body>
+</html>
